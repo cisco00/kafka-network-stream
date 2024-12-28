@@ -1,5 +1,7 @@
 import json as json
 import time
+from sys import api_version
+
 import requests
 from concurrent.futures import ThreadPoolExecutor
 from time import sleep
@@ -13,7 +15,8 @@ def serializer(message):
 
 # Kafka Producer
 producer = KafkaProducer(
-    bootstrap_servers=['localhost:9092'],
+    bootstrap_servers=['kafka:9092'],
+    api_version=(0, 10),
     value_serializer=serializer
 )
 
