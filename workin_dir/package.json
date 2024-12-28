@@ -1,7 +1,7 @@
 {
-  "DB_NAME": "postgres",
+  "DB_NAME": "database",
   "DB_USER": "postgres",
-  "DB_PASS": "1111",
+  "DB_PASS": "0000676",
   "DB_HOST": "localhost",
-  "USER_EMAIL": "idokofrancis66@gmail.com"
+  "USER_EMAIL": "exampl@yahoo.com"
 }
